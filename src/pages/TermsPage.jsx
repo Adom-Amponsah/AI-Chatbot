@@ -51,7 +51,7 @@ const TermsPage = () => {
             
             <h2 className="text-2xl text-white font-semibold mb-4">3. Privacy Policy</h2>
             <p className="text-gray-300 mb-4">
-              Your use of our Telegram bot is governed by our <a href="/legal/privacy" className="text-[#00ff9d] hover:underline">Privacy Policy</a>, which is incorporated into these Terms by reference.
+              Your use of our Telegram bot is governed by our <a href="#/legal/privacy" className="text-[#00ff9d] hover:underline">Privacy Policy</a>, which is incorporated into these Terms by reference.
             </p>
             
             <h2 className="text-2xl text-white font-semibold mb-4">4. Contact Us</h2>
