@@ -189,7 +189,7 @@ function HomePage() {
           </h1>
 
           <p className="text-gray-400 text-xl md:text-2xl mb-12 animate-slide-up delay-200">
-            We provide high-quality, ethically-labeled datasets across text, audio, image, satellite, and video—powered by local experts across Africa. 🔹 Cost-effective. 🔹 Multilingual. 🔹 Rapid turnaround. [→ Book a Demo] or [→ Request a Pilot]
+            We provide high-quality, ethically-labeled datasets across text, audio, image, satellite, and video—powered by local experts across Africa.
           </p>
 
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up delay-300">
@@ -254,72 +254,72 @@ function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-lg flex flex-col items-center">
               <span className="mb-3">{/* Circuit SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="18" cy="18" r="16" stroke="url(#circuit-grad)" strokeWidth="3" fill="#121212" />
-    <path d="M10 18h16M18 10v16" stroke="url(#circuit-grad)" strokeWidth="2" strokeLinecap="round"/>
-    <defs>
-      <linearGradient id="circuit-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="18" cy="18" r="16" stroke="url(#circuit-grad)" strokeWidth="3" fill="#121212" />
+                  <path d="M10 18h16M18 10v16" stroke="url(#circuit-grad)" strokeWidth="2" strokeLinecap="round" />
+                  <defs>
+                    <linearGradient id="circuit-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <p className="text-lg text-gray-200 font-semibold">Startups / Enterprises</p>
               <p className="text-gray-400">Building AI tools for African users</p>
             </div>
             <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-lg flex flex-col items-center">
               <span className="mb-3">{/* Chip SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="8" y="8" width="20" height="20" rx="4" fill="#18181b" stroke="url(#chip-grad)" strokeWidth="2"/>
-    <rect x="14" y="14" width="8" height="8" rx="2" fill="url(#chip-grad)" />
-    <defs>
-      <linearGradient id="chip-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="8" y="8" width="20" height="20" rx="4" fill="#18181b" stroke="url(#chip-grad)" strokeWidth="2" />
+                  <rect x="14" y="14" width="8" height="8" rx="2" fill="url(#chip-grad)" />
+                  <defs>
+                    <linearGradient id="chip-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <p className="text-lg text-gray-200 font-semibold">Development Agencies</p>
               <p className="text-gray-400">Creating inclusive, ethical tech</p>
             </div>
             <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-lg flex flex-col items-center">
               <span className="mb-3">{/* Network SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="18" cy="18" r="16" stroke="url(#net-grad)" strokeWidth="2" fill="#18181b"/>
-    <circle cx="18" cy="18" r="5" fill="url(#net-grad)" />
-    <circle cx="8" cy="8" r="2" fill="#00ff9d" />
-    <circle cx="28" cy="8" r="2" fill="#9d00ff" />
-    <circle cx="8" cy="28" r="2" fill="#00ff9d" />
-    <circle cx="28" cy="28" r="2" fill="#9d00ff" />
-    <line x1="18" y1="13" x2="18" y2="8" stroke="#00ff9d" strokeWidth="1.5"/>
-    <line x1="18" y1="23" x2="18" y2="28" stroke="#9d00ff" strokeWidth="1.5"/>
-    <defs>
-      <linearGradient id="net-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="18" cy="18" r="16" stroke="url(#net-grad)" strokeWidth="2" fill="#18181b" />
+                  <circle cx="18" cy="18" r="5" fill="url(#net-grad)" />
+                  <circle cx="8" cy="8" r="2" fill="#00ff9d" />
+                  <circle cx="28" cy="8" r="2" fill="#9d00ff" />
+                  <circle cx="8" cy="28" r="2" fill="#00ff9d" />
+                  <circle cx="28" cy="28" r="2" fill="#9d00ff" />
+                  <line x1="18" y1="13" x2="18" y2="8" stroke="#00ff9d" strokeWidth="1.5" />
+                  <line x1="18" y1="23" x2="18" y2="28" stroke="#9d00ff" strokeWidth="1.5" />
+                  <defs>
+                    <linearGradient id="net-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <p className="text-lg text-gray-200 font-semibold">Governments</p>
               <p className="text-gray-400">Modernizing public services</p>
             </div>
             <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-lg flex flex-col items-center">
               <span className="mb-3">{/* Globe SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="18" cy="18" r="16" stroke="url(#globe-grad)" strokeWidth="2" fill="#18181b"/>
-    <ellipse cx="18" cy="18" rx="10" ry="16" stroke="url(#globe-grad)" strokeWidth="1.5"/>
-    <ellipse cx="18" cy="18" rx="16" ry="10" stroke="url(#globe-grad)" strokeWidth="1.5"/>
-    <defs>
-      <linearGradient id="globe-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="18" cy="18" r="16" stroke="url(#globe-grad)" strokeWidth="2" fill="#18181b" />
+                  <ellipse cx="18" cy="18" rx="10" ry="16" stroke="url(#globe-grad)" strokeWidth="1.5" />
+                  <ellipse cx="18" cy="18" rx="16" ry="10" stroke="url(#globe-grad)" strokeWidth="1.5" />
+                  <defs>
+                    <linearGradient id="globe-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <p className="text-lg text-gray-200 font-semibold">Global AI Firms</p>
               <p className="text-gray-400">Grounding models in real African data</p>
             </div>
@@ -332,26 +332,47 @@ function HomePage() {
             <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-[#00ff9d] to-[#9d00ff] blur" />
             <h2 className="text-4xl md:text-5xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-[#00ff9d] via-[#ffffff] to-[#9d00ff] animate-slide-up">What We Offer</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-            <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-lg flex flex-col items-start text-left">
-              <h3 className="text-2xl font-semibold text-[#00ff9d] mb-2">Data Types</h3>
-              <ul className="text-gray-200 space-y-2">
-                <li><span className="font-bold">Text:</span> Chatbots, fraud detection, sentiment analysis</li>
-                <li><span className="font-bold">Audio:</span> Voice assistants in Twi, Ewe, Hausa, etc.</li>
-                <li><span className="font-bold">Image:</span> Crop disease, facial datasets, documents</li>
-                <li><span className="font-bold">Satellite:</span> Deforestation, flood zones, urban mapping</li>
-                <li><span className="font-bold">Video:</span> Road condition monitoring, behavioral labeling</li>
-              </ul>
-            </div>
-            <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-lg flex flex-col items-start text-left gap-6">
-              <h3 className="text-2xl font-semibold text-[#9d00ff] mb-2 ">Services</h3>
-              <ul className="text-gray-200 space-y-2">
-                <li>✅ Data collection & annotation</li>
-                <li>✅ Custom model building & evaluation</li>
-                <li>✅ Secure, human-in-the-loop workflows</li>
-              </ul>
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10"> */}
+
+          <div className="w-screen max-w-none relative left-1/2 right-1/2 -translate-x-1/2 flex flex-col items-center py-8 bg-black/90">
+            <h3 className="text-2xl font-semibold text-[#00ff9d] mb-8">Data Types</h3>
+            <div className="flex flex-row justify-between items-end gap-8 w-full max-w-7xl px-4 overflow-x-auto">
+              <div className="flex flex-col items-center flex-1 min-w-[150px]">
+                <img src="https://images.unsplash.com/photo-1543285198-3af15c4592ce?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Text" className="w-36 h-36 object-cover mb-3 rounded-xl shadow-lg bg-zinc-900" />
+                <span className="text-white font-bold text-lg">Text</span>
+              </div>
+              <div className="flex flex-col items-center flex-1 min-w-[150px]">
+                <img src="https://images.unsplash.com/photo-1640521060189-e65a451b5c91?q=80&w=1278&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Audio" className="w-36 h-36 object-cover mb-3 rounded-xl shadow-lg bg-zinc-900" />
+                <span className="text-white font-bold text-lg">Audio</span>
+              </div>
+              <div className="flex flex-col items-center flex-1 min-w-[150px]">
+                <img src="https://images.unsplash.com/photo-1566438480900-0609be27a4be?q=80&w=694&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image" className="w-36 h-36 object-cover mb-3 rounded-xl shadow-lg bg-zinc-900" />
+                <span className="text-white font-bold text-lg">Image</span>
+              </div>
+              <div className="flex flex-col items-center flex-1 min-w-[150px]">
+                <img src="https://images.unsplash.com/photo-1590433333434-09df2b2a35a5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Satellite" className="w-36 h-36 object-cover mb-3 rounded-xl shadow-lg bg-zinc-900" />
+                <span className="text-white font-bold text-lg">Satellite</span>
+              </div>
+              <div className="flex flex-col items-center flex-1 min-w-[150px]">
+                <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1159&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Video" className="w-36 h-36 object-cover mb-3 rounded-xl shadow-lg bg-zinc-900" />
+                <span className="text-white font-bold text-lg">Video</span>
+              </div>
             </div>
           </div>
+          {/* <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-lg flex flex-col items-start text-left gap-6 mt-8 w-full">
+
+            </div> */}
+          <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-lg flex flex-col items-center text-left gap-6">
+            <h3 className="text-2xl font-semibold text-[#9d00ff] mb-2 text-center">Services</h3>
+
+            <ul className="flex flex-col md:flex-row text-white gap-3">
+              <li>✅ Data collection & annotation</li>
+              <li>✅ Custom model building & evaluation</li>
+              <li>✅ Secure, human-in-the-loop workflows</li>
+            </ul>
+          </div>
+
+          {/* </div> */}
         </section>
 
         {/* Why Choose Us */}
@@ -363,49 +384,49 @@ function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-black/70 rounded-2xl border border-white/10 p-8 shadow-xl flex flex-col items-center">
               <span className="mb-3">{/* AI Brain SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="18" cy="18" rx="14" ry="10" fill="#18181b" stroke="url(#brain-grad)" strokeWidth="2"/>
-    <path d="M12 18c0-3 2-5 6-5s6 2 6 5-2 5-6 5-6-2-6-5z" fill="url(#brain-grad)" />
-    <defs>
-      <linearGradient id="brain-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <ellipse cx="18" cy="18" rx="14" ry="10" fill="#18181b" stroke="url(#brain-grad)" strokeWidth="2" />
+                  <path d="M12 18c0-3 2-5 6-5s6 2 6 5-2 5-6 5-6-2-6-5z" fill="url(#brain-grad)" />
+                  <defs>
+                    <linearGradient id="brain-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <h3 className="font-semibold mb-2 text-lg text-[#00ff9d]">Local Expertise</h3>
               <p className="text-gray-300 text-center">Annotators trained across Africa, with deep cultural and language understanding</p>
             </div>
             <div className="bg-black/70 rounded-2xl border border-white/10 p-8 shadow-xl flex flex-col items-center">
               <span className="mb-3">{/* Lightning SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <polygon points="18,4 12,20 18,20 14,32 26,14 20,14 24,4" fill="url(#light-grad)" />
-    <defs>
-      <linearGradient id="light-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="18,4 12,20 18,20 14,32 26,14 20,14 24,4" fill="url(#light-grad)" />
+                  <defs>
+                    <linearGradient id="light-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <h3 className="font-semibold mb-2 text-lg text-[#00ff9d]">Faster Turnaround</h3>
               <p className="text-gray-300 text-center">Lean teams, fast pipelines, live dashboards</p>
             </div>
             <div className="bg-black/70 rounded-2xl border border-white/10 p-8 shadow-xl flex flex-col items-center">
               <span className="mb-3">{/* Globe SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="18" cy="18" r="16" stroke="url(#globe-grad)" strokeWidth="2" fill="#18181b"/>
-    <ellipse cx="18" cy="18" rx="10" ry="16" stroke="url(#globe-grad)" strokeWidth="1.5"/>
-    <ellipse cx="18" cy="18" rx="16" ry="10" stroke="url(#globe-grad)" strokeWidth="1.5"/>
-    <defs>
-      <linearGradient id="globe-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="18" cy="18" r="16" stroke="url(#globe-grad)" strokeWidth="2" fill="#18181b" />
+                  <ellipse cx="18" cy="18" rx="10" ry="16" stroke="url(#globe-grad)" strokeWidth="1.5" />
+                  <ellipse cx="18" cy="18" rx="16" ry="10" stroke="url(#globe-grad)" strokeWidth="1.5" />
+                  <defs>
+                    <linearGradient id="globe-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <h3 className="font-semibold mb-2 text-lg text-[#00ff9d]">Multilingual Support</h3>
               <p className="text-gray-300 text-center">Text and audio labeling in over 10 African languages</p>
             </div>
@@ -413,32 +434,32 @@ function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
             <div className="bg-black/70 rounded-2xl border border-white/10 p-8 shadow-xl flex flex-col items-center">
               <span className="mb-3">{/* Shield SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M18 4l12 6v8c0 8-6 14-12 14S6 26 6 18V10l12-6z" fill="#18181b" stroke="url(#shield-grad)" strokeWidth="2"/>
-    <defs>
-      <linearGradient id="shield-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 4l12 6v8c0 8-6 14-12 14S6 26 6 18V10l12-6z" fill="#18181b" stroke="url(#shield-grad)" strokeWidth="2" />
+                  <defs>
+                    <linearGradient id="shield-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <h3 className="font-semibold mb-2 text-lg text-[#9d00ff]">Ethical & Fair</h3>
               <p className="text-gray-300 text-center">Fair wages, psychological safety, consent-driven data sourcing</p>
             </div>
             <div className="bg-black/70 rounded-2xl border border-white/10 p-8 shadow-xl flex flex-col items-center">
               <span className="mb-3">{/* Coin SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="18" cy="18" rx="14" ry="14" fill="#18181b" stroke="url(#coin-grad)" strokeWidth="2"/>
-    <ellipse cx="18" cy="18" rx="8" ry="8" fill="url(#coin-grad)" />
-    <defs>
-      <linearGradient id="coin-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <ellipse cx="18" cy="18" rx="14" ry="14" fill="#18181b" stroke="url(#coin-grad)" strokeWidth="2" />
+                  <ellipse cx="18" cy="18" rx="8" ry="8" fill="url(#coin-grad)" />
+                  <defs>
+                    <linearGradient id="coin-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <h3 className="font-semibold mb-2 text-lg text-[#9d00ff]">Affordable Pricing</h3>
               <p className="text-gray-300 text-center">30–60% more cost-effective than global firms</p>
             </div>
@@ -454,52 +475,52 @@ function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-lg flex flex-col items-center">
               <span className="mb-3">{/* Book SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="6" y="8" width="24" height="20" rx="4" fill="#18181b" stroke="url(#book-grad)" strokeWidth="2"/>
-    <path d="M18 8v20" stroke="url(#book-grad)" strokeWidth="2"/>
-    <defs>
-      <linearGradient id="book-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="6" y="8" width="24" height="20" rx="4" fill="#18181b" stroke="url(#book-grad)" strokeWidth="2" />
+                  <path d="M18 8v20" stroke="url(#book-grad)" strokeWidth="2" />
+                  <defs>
+                    <linearGradient id="book-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <p className="text-lg text-gray-200 font-semibold mb-1">EdTech Chatbots</p>
               <p className="text-gray-400 text-center">Power your EdTech chatbot with BECE-grade, Ghana-labeled content</p>
             </div>
             <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-lg flex flex-col items-center">
               <span className="mb-3">{/* Plant SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="18" cy="28" rx="8" ry="4" fill="#18181b" stroke="url(#plant-grad)" strokeWidth="2"/>
-    <path d="M18 28V10M18 10c-4 0-8 4-8 8M18 10c4 0 8 4 8 8" stroke="url(#plant-grad)" strokeWidth="2"/>
-    <defs>
-      <linearGradient id="plant-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <ellipse cx="18" cy="28" rx="8" ry="4" fill="#18181b" stroke="url(#plant-grad)" strokeWidth="2" />
+                  <path d="M18 28V10M18 10c-4 0-8 4-8 8M18 10c4 0 8 4 8 8" stroke="url(#plant-grad)" strokeWidth="2" />
+                  <defs>
+                    <linearGradient id="plant-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <p className="text-lg text-gray-200 font-semibold mb-1">Agri AI</p>
               <p className="text-gray-400 text-center">Detect crop pests from farmer images in 48 hours</p>
             </div>
             <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-lg flex flex-col items-center">
               <span className="mb-3">{/* Satellite SVG */}
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="14" y="14" width="8" height="8" rx="2" fill="#18181b" stroke="url(#sat-grad)" strokeWidth="2"/>
-    <rect x="10" y="10" width="4" height="4" rx="1" fill="url(#sat-grad)" />
-    <rect x="22" y="22" width="4" height="4" rx="1" fill="url(#sat-grad)" />
-    <line x1="18" y1="10" x2="18" y2="14" stroke="url(#sat-grad)" strokeWidth="2"/>
-    <line x1="18" y1="22" x2="18" y2="26" stroke="url(#sat-grad)" strokeWidth="2"/>
-    <defs>
-      <linearGradient id="sat-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#00ff9d" />
-        <stop offset="1" stopColor="#9d00ff" />
-      </linearGradient>
-    </defs>
-  </svg>
-</span>
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="14" y="14" width="8" height="8" rx="2" fill="#18181b" stroke="url(#sat-grad)" strokeWidth="2" />
+                  <rect x="10" y="10" width="4" height="4" rx="1" fill="url(#sat-grad)" />
+                  <rect x="22" y="22" width="4" height="4" rx="1" fill="url(#sat-grad)" />
+                  <line x1="18" y1="10" x2="18" y2="14" stroke="url(#sat-grad)" strokeWidth="2" />
+                  <line x1="18" y1="22" x2="18" y2="26" stroke="url(#sat-grad)" strokeWidth="2" />
+                  <defs>
+                    <linearGradient id="sat-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#00ff9d" />
+                      <stop offset="1" stopColor="#9d00ff" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
               <p className="text-lg text-gray-200 font-semibold mb-1">Climate & Mining</p>
               <p className="text-gray-400 text-center">Monitor illegal mining with labeled drone & satellite imagery</p>
             </div>
@@ -517,7 +538,7 @@ function HomePage() {
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#00ff9d] via-[#ffffff] to-[#9d00ff] animate-slide-up z-10">Let’s Build Smarter AI, Together</h2>
               <p className="text-xl text-gray-300 mb-8 z-10">
-                <span className="block mb-2">🔍 Want a taste before you commit?</span>
+                <span className="block mb-2">Want a taste before you commit?</span>
                 <span className="flex flex-col md:flex-row md:space-x-4 items-center justify-center mt-2">
                   <a href="mailto:mymasterpa@gmail.com?subject=Book%20a%20Demo" className="inline-block px-6 py-3 mb-2 md:mb-0 bg-gradient-to-r from-[#00ff9d] to-[#9d00ff] rounded-lg text-white font-semibold shadow-lg hover:scale-105 hover:shadow-[0_0_40px_rgba(0,255,157,0.3)] focus:outline-none focus:ring-2 focus:ring-[#00ff9d] transition-all duration-300">Book a Demo</a>
                   <span className="text-gray-400 text-base mx-2">or</span>
@@ -525,7 +546,7 @@ function HomePage() {
                 </span>
               </p>
               <div className="flex flex-col items-center text-gray-400 text-base z-10 mt-2">
-                <span className="flex items-center mb-1"><span className="text-xl mr-2">🗺️</span> <span>Trusted by teams building for Africa</span></span>
+                <span className="flex items-center mb-1"><span className="text-xl mr-2"></span> <span>Trusted by teams building for Africa</span></span>
                 <span className="text-sm">Partnered with innovators across Ghana, Kenya, Nigeria, and beyond.</span>
               </div>
             </div>
@@ -537,14 +558,14 @@ function HomePage() {
           <div className="max-w-3xl mx-auto px-4">
             <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-8 mb-10">
               <div className="flex-1 flex flex-col items-center md:items-start">
-                <div className="mb-4 text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#00ff9d] to-[#9d00ff] flex items-center"><span className="mr-2">📬</span> Contact Us</div>
-                <div className="mb-2 text-lg text-gray-200 flex items-center"><span className="mr-2">📧</span> <a href="mailto:mymasterpa@gmail.com" className="underline hover:text-[#00ff9d] transition-colors">mymasterpa@gmail.com</a></div>
-                <div className="mb-2 text-lg text-gray-200 flex items-center"><span className="mr-2">🌍</span> <a href="https://www.masterpa.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#9d00ff] transition-colors">www.masterpa.com</a></div>
-                <div className="mb-2 text-lg text-gray-200 flex items-center"><span className="mr-2">📍</span> Accra, Ghana <span className="mx-1">|</span> Remote-friendly</div>
+                <div className="mb-4 text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#00ff9d] to-[#9d00ff] flex items-center"><span className="mr-2"></span> Contact Us</div>
+                <div className="mb-2 text-lg text-gray-200 flex items-center"><span className="mr-2"></span> <a href="mailto:mymasterpa@gmail.com" className="underline hover:text-[#00ff9d] transition-colors">mymasterpa@gmail.com</a></div>
+                {/* <div className="mb-2 text-lg text-gray-200 flex items-center"><span className="mr-2"></span> <a href="https://www.masterpa.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#9d00ff] transition-colors">www.masterpa.com</a></div> */}
+                <div className="mb-2 text-lg text-gray-200 flex items-center"><span className="mr-2"></span> Accra, Ghana <span className="mx-1">|</span> Remote-friendly</div>
               </div>
               <div className="flex-1 flex flex-col items-center md:items-end">
                 <div className="bg-black/60 rounded-2xl border border-white/10 p-8 shadow-xl flex flex-col items-center w-full">
-                  <span className="text-2xl text-gray-300 mb-2">🗺️ Trusted by teams building for Africa</span>
+                  <span className="text-2xl text-gray-300 mb-2">Trusted by teams building for Africa</span>
                   <span className="text-gray-400 text-sm text-center">Partnered with innovators across Ghana, Kenya, Nigeria, and beyond.</span>
                 </div>
               </div>

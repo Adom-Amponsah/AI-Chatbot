@@ -7,7 +7,7 @@ function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#00ff9d] to-[#9d00ff]">
-              AI Assistant
+              MASTERPA
             </Link>
           </div>
           <div className="flex items-center space-x-4">
